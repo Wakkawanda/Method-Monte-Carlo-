@@ -10,9 +10,9 @@
 //Оценка числа π
 static void Main(string[] args)
 {
-  int totalPoints = 1000000; // Количество случайных точек
-  int pointsInsideCircle = 0; // Количество точек внутри круга
-        
+  int totalPoints = 1000000; // Количество случайных точек 
+  int pointsInsideCircle = 0; // Количество точек внутри круга 
+
   Random random = new Random();
         
   for (int i = 0; i < totalPoints; i++)
